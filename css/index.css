@@ -1,0 +1,76 @@
+main {
+    width: 100%;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+}
+.r1, .r2, .r3, .r4, .r4, .r5 {
+    display: flex;
+    flex: 1;
+}
+.r1 {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    min-height: 30px;
+    top: 0px;
+    background-color: white;
+}
+ul {
+    list-style-type: none;   
+    padding-left: 0px;
+    padding-right: 25x;
+    padding-top: 0%;
+    margin-top: 0%;
+}
+nav {
+    width: 70%;
+}
+nav li, .ls li {
+    display: inline-block;
+    padding: 30px 30px 5px;
+}
+.ls {
+    width: 20%;
+}
+a {
+    text-decoration: none;
+}
+
+.hero-section {
+    background: url(../Images/codeison.jpg);
+    width: 100%;
+    background-size: cover;
+    height: 760px;
+    text-align: center;
+}
+.r5c1, .r5c2, .r5c3, .r5c4, .r5c5, .r5c6 {
+    width: 20%;
+    height: 60px;
+    background-color: rgb(88, 84, 84)
+}
+
+.r2 {
+    padding-top: 70px;  
+}
+.r3c1, .r3c2, .r4c1, .r4c2 {
+    padding-left: 20px;
+    flex: 1; 
+}
+.r3 ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+.r3c1, .r3c2, .r4 {
+    border: 5px solid grey;
+}
+button {
+    background-color: purple;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }

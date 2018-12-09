@@ -1,0 +1,11 @@
+form li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+form ul {
+    padding-left: 0px;
+}
+li:nth-child(1) {
+    background: url(https://image.flaticon.com/icons/svg/16/16480.svg) no-repeat;
+    padding-left: 30px;
+}
