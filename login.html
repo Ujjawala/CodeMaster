@@ -2,20 +2,22 @@
     <head>
         <title>Login</title>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="login-css.css">
+        <link rel="stylesheet" href="css/login-css.css">
     </head>
     <body>
         <form action="" method="post">
             <div class="wrap">
                 <div class="hd">
-                    <p>Login</p>
+                    <h1>Login</h1>
                 </div>
                 <div class="fm">
                     <ul>
-                        <li><input type="text" name="username" id="username" placeholder="Username or email"></li>
-                        <li><input type="text" name="pass" id="pass" placeholder="Password"></li>
+                        <li><input type="text" name="username" id="username" placeholder="Username or email" required></li>
+                        
+                        <li><input type="text" name="pass" id="pass" placeholder="Password" required></li>
                         <li><input type="checkbox" name="remember" id="remember">Remember Me</li>
-                        <li><input type="submit" value="Login"></li>
+                        <li><input type="submit" value="Login"> 
+                        <a href="#">Forgot Password</a></li>
                     </ul>
                 </div>
             </div>

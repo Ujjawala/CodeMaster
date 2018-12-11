@@ -3,11 +3,11 @@ main {
     flex-direction: column;
     font-family: 'Montserrat', sans-serif;
 }
-.r1, .r2, .r3, .r4, .r4, .r5 {
+header, .row2, .row3, .row4, .row4, .row5 {
     display: flex;
     flex: 1;
 }
-.r1 {
+header {
     position: fixed;
     width: 100%;
     height: auto;
@@ -37,30 +37,31 @@ a {
 }
 
 .hero-section {
-    background: url(../Images/code-3.jpg);
+    background: url(../Images/code-3.jpg) center center;
     width: 100%;
     background-size: cover;
     height: 500px;
     text-align: center;
 }
-.r5c1, .r5c2, .r5c3, .r5c4, .r5c5, .r5c6 {
+
+.row5col1, .row5col2, .row5col3, .row5col4, .row5col5, .row5col6 {
     width: 20%;
     height: 60px;
     background-color: rgb(88, 84, 84)
 }
 
-.r2 {
+.row2 {
     padding-top: 70px;  
 }
-.r3c1, .r3c2, .r4c1, .r4c2 {
+.row3col1, .row3col2, .row4col1, .row4col2 {
     padding-left: 20px;
     flex: 1; 
 }
-.r3 ul {
+.row3 ul {
     list-style-type: square;
     padding-left: 20px;
 }
-.r3c1, .r3c2, .r4 {
+.row3col1, .row3col2, .row4 {
     border: 5px solid grey;
 }
 button {
@@ -74,3 +75,11 @@ button {
     font-size: 16px;
     margin-bottom: 20px;
   }
+@media screen and (max-width: 600px) {
+    .row3col1 {
+        border-color: red;   
+    }
+    
+}
+
+  
